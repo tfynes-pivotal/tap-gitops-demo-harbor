@@ -7,12 +7,21 @@ tap_install:
     ceip_policy_disclosed: true
     profile: full
     supply_chain: basic
+
     ootb_supply_chain_basic:
       registry:
         server: harbor.harborlab.fynesy.net
         repository: tap
       gitops:
         ssh_secret: workload-git-auth
+
+    ootb_supply_chain_testing_scanning:
+      registry:
+        server: harbor.harborlab.fynesy.net
+        repository: tap
+      gitops:
+        ssh_secret: workload-git-auth
+
     contour:
       envoy:
         service:
