@@ -23,4 +23,4 @@ spec:
     groupId: petclinic
     cors:
       allowedOrigins:
-      - https://api-portal.akslab3-harbor.fynesy.net
+      - https://api-portal.akslab3-harbor2.fynesy.net

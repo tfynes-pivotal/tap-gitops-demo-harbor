@@ -2,7 +2,7 @@ tap_install:
   values:
     excluded_packages: []
     shared:
-      ingress_domain: akslab3-harbor.fynesy.net
+      ingress_domain: akslab3-harbor2.fynesy.net
       ingress_issuer: letsencrypt-production
     ceip_policy_disclosed: true
     profile: full
@@ -43,7 +43,7 @@ tap_install:
       app_service_type: ClusterIP
     scanning:
       metadataStore:
-        url: "metadata-store.akslab3-harbor.fynesy.net"
+        url: "metadata-store.akslab3-harbor2.fynesy.net"
     grype:
       namespace: default
       targetImagePullSecret: registries-credentials
