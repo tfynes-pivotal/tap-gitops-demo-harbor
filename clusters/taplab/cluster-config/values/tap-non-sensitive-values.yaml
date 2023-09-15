@@ -157,15 +157,15 @@ tap_install:
     - name: namespace-provisioner
       secrets:
       - name: reqfix-overlay-secret
-    - name: ootb-delivery-basic
-      secrets:
-      - name: reqfix-overlay-secret
-    - name: ootb-supply-chain_testing_scanning
-      secrets:
-      - name: reqfix-overlay-secret
-    - name: ootb-supply-chain-basic
-      secrets:
-      - name: reqfix-overlay-secret
+   #! - name: ootb-delivery-basic
+   #!   secrets:
+   #!   - name: reqfix-overlay-secret
+   #! - name: ootb-supply-chain_testing_scanning
+   #!   secrets:
+   #!   - name: reqfix-overlay-secret
+   #! - name: ootb-supply-chain-basic
+   #!   secrets:
+   #!   - name: reqfix-overlay-secret
     - name: ootb-templates
       secrets:
       - name: reqfix-overlay-secret
