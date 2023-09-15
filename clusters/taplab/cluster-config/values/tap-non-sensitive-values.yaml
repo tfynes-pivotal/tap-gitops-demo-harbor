@@ -46,7 +46,7 @@ tap_install:
         url: ""
     grype:
       namespace: default
-      targetImagePullSecret: tap-registry
+      targetImagePullSecret: registries-credentials
     policy:
       tuf_enabled: false
     cnrs:
