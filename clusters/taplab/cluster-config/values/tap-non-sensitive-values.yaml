@@ -43,7 +43,7 @@ tap_install:
       app_service_type: ClusterIP
     scanning:
       metadataStore:
-        url: ""
+        url: "metadata-store.akslab3-harbor.fynesy.net"
     grype:
       namespace: default
       targetImagePullSecret: registries-credentials
